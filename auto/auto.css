@@ -8,7 +8,7 @@
     width: 100%;
     height: 100vh;
     border: none;
-    background: url(../auto/main-i8.jpg) 100% ;
+    background: url(../auto/main-i8.jpg) 100%;
     opacity: 0.8;
 }
 
@@ -27,12 +27,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.button {
-    display: flex;
-    height: 60px;
-    align-items: center;
-    padding-left: 20px;
-}
+
 .button__button {
     height: 40px;
     width: 120px;
@@ -42,11 +37,16 @@
     font-weight: bolder;
     border: rgb(80, 74, 74) 1px solid;
 }
+.button {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+}
 .price {
     display: flex;
-    height: 60px;
-    align-items: center;
     padding-left: 20px;
+    padding-top: 10px;
+    align-items: center;
 }
 #price {
     height: 40px;
@@ -69,7 +69,6 @@
     padding-left: 10px;
     color: rgb(48, 46, 46);
 }
-
 
 .description__brands,
 .description__auction,

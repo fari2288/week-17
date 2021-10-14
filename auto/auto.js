@@ -20,3 +20,22 @@ let option1= document.querySelector('#22000');
 let option2 = document.querySelector('#25000');
 let option1= document.querySelector('person');
 let option2 = document.querySelector('entity');
+
+
+
+function selectCar() {
+    if (document.getElementById('cars').value == 'bmw') 
+    {
+    let parent = document.querySelector('#x5');
+
+    let cartype= document.createElement('option');
+
+    parent.appendChild(cartype);
+
+    cartype.innerHTML = '<option name="имя" value="" id="a5">x5</option>';
+    document.getElementById('x5').innerHTML = '';
+    }
+}
+
+
+
